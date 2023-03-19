@@ -8,7 +8,7 @@ def parallel_processing(n, m, data):
 
     for i in range(m):
         next_thread = 0
-        for j in range(1,n):
+        for j in range(1, n):
             if thread_number[j] < thread_number[next_thread]:
                 next_thread = j
         
